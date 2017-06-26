@@ -1,7 +1,9 @@
-const webpack = require('webpack')
-const webpackCommonConfig = require('./webpack.common.config.js')
-const commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js')
+var path = require('path');
 
-module.exports = Object.assign(webpackCommonConfig, {
-  plugins: [commonsPlugin]
-})
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  }
+};
