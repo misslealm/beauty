@@ -1,0 +1,24 @@
+{
+  "name": "beauty",
+  "version": "1.0.0",
+  "description": "搭建自己的项目",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misslealm/beauty.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "limin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misslealm/beauty/issues"
+  },
+  "homepage": "https://github.com/misslealm/beauty#readme"
+}
