@@ -21,13 +21,13 @@ module.exports = {
       title: 'Output Managementa'
     })
   ],
-  // devServer: {
-  //   hot: true, // 告诉 dev-server 我们在使用 HMR
-  //   contentBase: path.resolve(__dirname, 'dist'),
-  //   historyApiFallback: true,
-  //   publicPath: '/',
-  //   port:9100
-  // },
+  devServer: {
+    hot: true, // 告诉 dev-server 我们在使用 HMR
+    contentBase: path.resolve(__dirname, 'dist'),
+    historyApiFallback: true,
+    publicPath: '/',
+    port:9100
+  },
   module:{
     rules:[
       {
