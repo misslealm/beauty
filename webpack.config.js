@@ -18,7 +18,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.optimize.CommonsChunkPlugin('common.js'),
     new HtmlWebpackPlugin({
-      title: 'Output Management'
+      title: 'Output Managementa'
     })
   ],
   // devServer: {

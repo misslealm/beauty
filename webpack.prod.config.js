@@ -16,6 +16,9 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new webpack.optimize.CommonsChunkPlugin('common.js'),
+    new HtmlWebpackPlugin({
+      title: '开始啦'
+    }),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false
