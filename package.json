@@ -21,9 +21,8 @@
     "webpack-dev-server": "^2.5.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --display-error-details --progress --colors --watch",
-    "build": "webpack --progress --profile --colors --config webpack.prod.config.js && cp -f ./dist/index.html ./index.html"
+    "build": "webpack --progress --profile --colors --config webpack.prod.config.babel.js && cp -f ./dist/index.html ./index.html"
   },
   "repository": {
     "type": "git",
