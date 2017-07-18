@@ -16,7 +16,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
-    new webpack.optimize.CommonsChunkPlugin('common.js'),
+    new webpack.optimize.CommonsChunkPlugin('common'),
     new HtmlWebpackPlugin({
       title: '开始啦',
 
