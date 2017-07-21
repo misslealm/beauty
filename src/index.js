@@ -1,7 +1,10 @@
 
 import React, {Component} from 'react'
 import {render} from 'react-dom'
+import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom'
+import ModuleA from './containers/Index/index'
 
+import 'common/reset.css'
 class App extends Component {
   static defaultProps = {
   	
@@ -17,7 +20,11 @@ class App extends Component {
   }
   render() {
     return (
-      <div>Hello, React</div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={ModuleA}/>
+        </Switch>
+      </BrowserRouter>
     )
   }
 }

@@ -6,22 +6,25 @@
   "dependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
-    "babel-preset-es2016": "^6.16.0",
-    "babel-preset-stage-2": "^6.18.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.16.0",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.18.0",
     "clean-webpack-plugin": "^0.1.16",
     "css-loader": "^0.28.4",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2",
     "style-loader": "^0.18.2",
     "webpack": "^3.3.0"
   },
   "scripts": {
-    "start": "NODE_ENV=development node_modules/.bin/webpack-dev-server --quiet --open",
-    "build": "node_modules/.bin/webpack --progress --profile --colors --config webpack.prod.config.babel.js && cp -f ./dist/index.html ./index.html"
+    "start": "NODE_ENV=development webpack-dev-server --quiet --open",
+    "build": "webpack --progress --profile --colors --config webpack.prod.config.babel.js && cp -f ./dist/index.html ./index.html"
   },
   "repository": {
     "type": "git",

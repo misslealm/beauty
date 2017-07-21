@@ -6,8 +6,7 @@ import CleanWebpackPlugin from 'clean-webpack-plugin'
 module.exports = {
   devtool: 'eval-source-map',
   entry: {
-    app:'./src/index.js',
-    module:'./src/module.js'
+    app:'./src/index.js'
   },
   output: {
     filename: '[name].js',
@@ -18,7 +17,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.optimize.CommonsChunkPlugin('common'),
     new HtmlWebpackPlugin({
-      title: 'Output Managementa'
+      title: 'lealm的博客'
     })
   ],
   devServer: {
@@ -34,7 +33,8 @@ module.exports = {
         test:/\.css$/,
         use:[
           'style-loader',
-          'css-loader'
+          'css-loader',
+          'less-loader'
         ]
       },
       {
@@ -52,5 +52,10 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve:{
+    alias:{
+      common:path.join(__dirname,'src/common')
+    }
   }
 }

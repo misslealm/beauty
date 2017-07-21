@@ -4,10 +4,9 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
 
 module.exports = {
-  devtool: 'eval-source-map',
+  devtool: 'hidden-source-map',
   entry: {
-    app:'./src/index.js',
-    module:'./src/module.js'
+    app:'./src/index.js'
   },
   output: {
     filename: '[name].js',
@@ -63,5 +62,10 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve:{
+    alias:{
+      common:path.join(__dirname,'src/common')
+    }
   }
 };
