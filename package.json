@@ -20,7 +20,8 @@
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
     "style-loader": "^0.18.2",
-    "webpack": "^3.3.0"
+    "webpack": "^3.3.0",
+    "chokidar": "^1.7.0"
   },
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --quiet --open",

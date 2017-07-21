@@ -2,7 +2,7 @@ import path from 'path'
 import webpack from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
-
+import SyncMDDataPlugin from './Plugins/SyncMDDataPlugin/index'
 module.exports = {
   devtool: 'hidden-source-map',
   entry: {
@@ -29,8 +29,10 @@ module.exports = {
       'process.env': {
         NODE_ENV: '"production"'
       }
-    })
+    }),
+    new SyncMDDataPlugin()
   ],
+
   devServer: {
     hot: true, // 告诉 dev-server 我们在使用 HMR
     contentBase: path.resolve(__dirname, 'dist'),
