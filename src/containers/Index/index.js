@@ -9,7 +9,7 @@ class ModuleA extends Component{
       	<img src={indexBg} />
         <ul className="clear nav">
       		<li>
-      			<Link to='/'>首页</Link>
+      			<Link to='/'>首页mmm</Link>
       		</li>
           <li>
             <Link to='/play'>休闲</Link>
