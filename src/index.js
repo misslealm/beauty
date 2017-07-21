@@ -2,8 +2,9 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom'
-import ModuleA from './containers/Index/index'
-
+import ModuleIndex from './containers/Index/index'
+import ModulePlay from './containers/Play/index'
+import ModuleLearn from './containers/Learn/index'
 import 'common/reset.css'
 class App extends Component {
   static defaultProps = {
@@ -22,7 +23,9 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={ModuleA}/>
+          <Route path="/" exact component={ModuleIndex}/>
+          <Route path="/play" exact component={ModulePlay}/>
+          <Route path="/learn" exact component={ModuleLearn}/>
         </Switch>
       </BrowserRouter>
     )

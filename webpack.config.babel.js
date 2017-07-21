@@ -2,7 +2,7 @@ import path from 'path'
 import webpack from 'webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import CleanWebpackPlugin from 'clean-webpack-plugin'
-
+import SyncMDDataPlugin from './Plugins/SyncMDDataPlugin/index'
 module.exports = {
   devtool: 'eval-source-map',
   entry: {
@@ -18,7 +18,8 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin('common'),
     new HtmlWebpackPlugin({
       title: 'lealm的博客'
-    })
+    }),
+    new SyncMDDataPlugin()
   ],
   devServer: {
     hot: true, // 告诉 dev-server 我们在使用 HMR
