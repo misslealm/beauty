@@ -17,7 +17,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new webpack.optimize.CommonsChunkPlugin('common'),
     new HtmlWebpackPlugin({
-      title: '开始啦',
+      title: 'lealm博客',
 
     }),
     new webpack.optimize.UglifyJsPlugin({
