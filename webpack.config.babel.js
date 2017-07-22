@@ -54,6 +54,15 @@ module.exports = {
       },
       {
         test: /\.md$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        options: {
+          presets: ['es2015', 'stage-2', 'react']
+        }
+      },
+      {
+        test: /\.md$/,
         loader: path.join(__dirname,'loaders',"markdown-loader")
       }
       

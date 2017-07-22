@@ -38,6 +38,8 @@ module.exports = function(content,map) {
 	// const contentData = JSON.stringify(htmlParse(content))
 
 	// React.createElement('', props, children)
+
+	
 	content = `
 		import React,{Component} from 'react'
 		import ReactHtmlParser from 'react-html-parser'
@@ -52,6 +54,7 @@ module.exports = function(content,map) {
 			}
 		}
 	`
+	
 	// 
 	// return JSON.stringify(content)
 	this.callback(null, content,map);
