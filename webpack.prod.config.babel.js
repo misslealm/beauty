@@ -68,7 +68,8 @@ module.exports = {
   },
   resolve:{
     alias:{
-      common:path.join(__dirname,'src/common')
+      common:path.join(__dirname,'src/common'),
+      article:path.join(__dirname,'article')
     }
   }
 };

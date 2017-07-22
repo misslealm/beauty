@@ -51,12 +51,20 @@ module.exports = {
         options: {
           presets: ['es2015', 'stage-2', 'react']
         }
+      },
+      {
+        test: /\.md$/,
+        loader: path.join(__dirname,'loaders',"markdown-loader")
       }
+      
     ]
   },
   resolve:{
     alias:{
-      common:path.join(__dirname,'src/common')
+      common:path.join(__dirname,'src/common'),
+      article:path.join(__dirname,'article'),
+      components:path.join(__dirname,'src/components'),
+      containers:path.join(__dirname,'src/containers'),
     }
   }
 }

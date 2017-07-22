@@ -21,7 +21,10 @@
     "react-router-dom": "^4.1.2",
     "style-loader": "^0.18.2",
     "webpack": "^3.3.0",
-    "chokidar": "^1.7.0"
+    "chokidar": "^1.7.0",
+    "react-html-parser": "^1.0.3",
+    "highlight.js": "^9.12.0",
+    "showdown": "^1.7.1"
   },
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --quiet --open",
