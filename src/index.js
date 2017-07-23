@@ -28,6 +28,7 @@ class App extends Component {
           <Route path="/" exact component={ModuleIndex}/>
           <Route path="/play" exact component={ModulePlay}/>
           <Route path="/learn" exact component={ModuleLearn}/>
+          <Route path="/about" exact component={ModuleLearn}/>
           <Route path="/article/:path" exact component={ModuleArticle}/>
         </Switch>
       </BrowserRouter>
