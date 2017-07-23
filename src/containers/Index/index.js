@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import indexBg from '../../img/indexbg.png'
+import indexBg from '../../img/indexbg.jpg'
 import style from './index.css'
 import {Link} from 'react-router-dom'
 class ModuleA extends Component{
