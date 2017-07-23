@@ -18,7 +18,9 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.optimize.CommonsChunkPlugin('common'),
     new HtmlWebpackPlugin({
-      title: 'lealm的博客'
+      title: 'lealm的博客',
+      template: './indextemplate.html', // Load a custom template 
+      inject: 'body'
     }),
     new SyncMDDataPlugin()
   ],

@@ -38,5 +38,5 @@ class App extends Component {
 
 render(
 	<App />,
-	document.body.appendChild(document.createElement('div'))
+	document.getElementById("root")
 )

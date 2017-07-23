@@ -18,6 +18,8 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin('common'),
     new HtmlWebpackPlugin({
       title: 'lealm博客',
+      template: './indextemplate.html', // Load a custom template 
+      inject: 'body'
 
     }),
     new webpack.optimize.UglifyJsPlugin({

@@ -3,10 +3,68 @@ img{
 	width: 100%;
 }
 .nav{
-	width: 300px;
-	margin: 20px auto;
 	li{
-		float: left;
-		margin: 10px 20px;
+		line-height: 0.74rem;
+		a{
+			color: #fff;
+		}
+		
 	}
 }
+[data-dpr="2"] .nav a { font-size: 24px; } 
+[data-dpr="3"] .nav a { font-size: 36px; }
+.entrybg{
+	background: url('../../img/entrybg.jpg') no-repeat;
+	height: 100%;
+	background-size: cover;
+	.linkwrap{
+		background:rgba(0,0,0,0.3); 
+		min-width: 6rem;
+		width: auto;
+		height: auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		max-width: 80%;
+		border-radius: 0.4rem;
+		padding: 10px;
+		-webkit-transform: translate(-50%, -50%);
+	    -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	    -o-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		transition: top 1s ease;
+		.title{
+		    color: #fff;
+		    text-align: center;
+		    border-bottom: 1px solid #fff;
+		    padding-bottom: 10px;
+		    font-size: 22px;
+		}
+		ul{
+			border-bottom: 1px solid #fff;
+		}
+		li{
+			background: rgba(0,0,0,0.5);
+			margin: 0.2rem 0;
+			padding: 0.1rem 0.2rem;
+			border-radius: 0.2rem;
+			&:hover{
+				background:#fff;
+				a{
+					color: #333;
+				}
+				
+			}
+		}
+		p{
+			line-height: 1rem;
+			text-align: right;
+			a{
+				color: #fff;
+			}
+		}
+	}
+}
+[data-dpr="2"] .entrybg .linkwrap .title { font-size: 44px; } 
+[data-dpr="3"] .entrybg .linkwrap .title { font-size: 66px; }
