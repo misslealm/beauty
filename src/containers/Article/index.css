@@ -40,5 +40,5 @@
 }
 [data-dpr="2"] .article-wrap { font-size: 24px; } 
 [data-dpr="3"] .article-wrap { font-size: 36px; }
-[data-dpr="2"] .learnwrap .header a { font-size: 28px; } 
-[data-dpr="3"] .learnwrap .header a  { font-size: 42px; } 
+[data-dpr="2"] .articlewrap .header a { font-size: 28px; } 
+[data-dpr="3"] .articlewrap .header a  { font-size: 42px; } 
