@@ -7,6 +7,7 @@ import ModulePlay from './containers/Play/index'
 import ModuleLearn from './containers/Learn/index'
 import ModuleArticle from './containers/Article/index'
 import 'common/reset.css'
+import 'common/common.css'
 class App extends Component {
   static defaultProps = {
   	
