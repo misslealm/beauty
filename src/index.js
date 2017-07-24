@@ -1,7 +1,7 @@
 
 import React, {Component} from 'react'
 import {render} from 'react-dom'
-import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom'
+import { HashRouter, Route, Redirect, Switch} from 'react-router-dom'
 import ModuleIndex from './containers/Index/index'
 import ModulePlay from './containers/Play/index'
 import ModuleLearn from './containers/Learn/index'
@@ -23,7 +23,7 @@ class App extends Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route path="/" exact component={ModuleIndex}/>
           <Route path="/play" exact component={ModulePlay}/>
@@ -31,7 +31,7 @@ class App extends Component {
           <Route path="/about" exact component={ModuleLearn}/>
           <Route path="/article/:path" exact component={ModuleArticle}/>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
