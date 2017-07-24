@@ -16,9 +16,7 @@ export default class ModuleLearn extends Component {
               <li>
                 <Link to='/play'>休闲</Link>
               </li>
-              <li>
-                <Link to='/learn'>学习笔记</Link>
-              </li>
+              
             </ul>
           </header>
           <section id="main-content">

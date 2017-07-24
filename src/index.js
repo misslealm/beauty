@@ -6,6 +6,7 @@ import ModuleIndex from './containers/Index/index'
 import ModulePlay from './containers/Play/index'
 import ModuleLearn from './containers/Learn/index'
 import ModuleArticle from './containers/Article/index'
+import ModuleAbout from './containers/About/index'
 import 'common/reset.css'
 import 'common/common.css'
 class App extends Component {
@@ -28,7 +29,7 @@ class App extends Component {
           <Route path="/" exact component={ModuleIndex}/>
           <Route path="/play" exact component={ModulePlay}/>
           <Route path="/learn" exact component={ModuleLearn}/>
-          <Route path="/about" exact component={ModuleLearn}/>
+          <Route path="/about" exact component={ModuleAbout}/>
           <Route path="/article/:path" exact component={ModuleArticle}/>
         </Switch>
       </HashRouter>

@@ -10,9 +10,6 @@ class ModuleA extends Component{
           <h3 className="title">Lealm个人博客</h3>
           <ul className="clear nav">
             <li>
-              <Link to='/'>首页</Link>
-            </li>
-            <li>
               <Link to='/play'>休闲</Link>
             </li>
             <li>
