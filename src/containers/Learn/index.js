@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import indexBg from '../../img/indexbg.png'
 import style from './index.css'
 import {Link} from 'react-router-dom'
+import { connect } from 'react-redux'
+import * as action from './action';
 import dataList from '../../data/article'
 class ModuleLearn extends Component {
   render () {
