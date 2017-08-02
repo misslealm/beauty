@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import indexBg from '../../img/indexbg.jpg'
 import style from './index.css'
+import { connect } from 'react-redux'
+import * as action from './action';
 import {Link} from 'react-router-dom'
 class ModuleA extends Component{
   render() {
@@ -25,4 +27,9 @@ class ModuleA extends Component{
   }
 }
 
-export default ModuleA
+function mapStateToProps(state) {
+  return {
+    data:state.Detail,
+  };
+}
+export default connect(mapStateToProps, action)(ModuleA)

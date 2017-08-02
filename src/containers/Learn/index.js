@@ -3,7 +3,7 @@ import indexBg from '../../img/indexbg.png'
 import style from './index.css'
 import {Link} from 'react-router-dom'
 import dataList from '../../data/article'
-export default class ModuleLearn extends Component {
+class ModuleLearn extends Component {
   render () {
     return (
       <div className="learnwrap">
@@ -50,3 +50,10 @@ export default class ModuleLearn extends Component {
     )
   }
 }
+
+function mapStateToProps(state) {
+  return {
+    data:state.Detail,
+  };
+}
+export default connect(mapStateToProps, action)(ModuleLearn)
