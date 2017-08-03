@@ -1,7 +1,6 @@
 .aboutwrap{
 	background: #323436;
   height: 100%;
-  font-size: 14px;
 	.header {
       position: fixed;
       left: 0;
@@ -150,8 +149,6 @@
     }
   }
 }
-[data-dpr="2"] .aboutwrap{ font-size: 28px; } 
-[data-dpr="3"] .aboutwrap{ font-size: 42px; }
 [data-dpr="2"] .aboutwrap .header a{ font-size: 24px; } 
 [data-dpr="3"] .aboutwrap .header a{ font-size: 36px; }
 [data-dpr="2"] .aboutwrap  h3{ font-size: 40px; } 

@@ -91,28 +91,41 @@ export default class Index extends Component {
 	      							<div className="circle"></div>
 	      							<h4>二手房link业绩系统，用户管理系统 2015.07-2015.12 </h4>
 	      							<div className="clearfix">
-	      								<p>这两个项目分别用于管理经纪人业绩，和用户配置权限。使用了Backbone，less，jQuery技术。</p>
+	      								<p>这两个项目分别用于管理经纪人业绩，和用户配置权限。</p>
+	      								<p>技术栈：backbone，less，jQuery</p>
+	      								<p>亮点：参与开发公用form表单校验规则，减少代码冗余度</p>
       								</div>
   								</li>
   								<li>
 	      							<div className="circle"></div>
 	      							<h4>金融客，TE系统 2016.01-2016.09 </h4>
 	      							<div className="clearfix">
-	      								<p>金融客项目用于管理房屋交易人员的信息。TE系统主要负责北京房屋交易。这两项目采用了backbone，jquery，less技术，使用webpack构建。TE项目开发阶段，由于项目需求紧张，第一次接触了组件化开发的思想。使用组件化开发，大大提高了项目开发的效率，大量减少了代码的冗余。</p>
+	      								<p>金融客项目用于管理房屋交易人员的信息。TE系统主要负责北京房屋交易。
+	      								</p>
+	      								<p>技术栈：backbone，jquery，less，webpack</p>
+	      								<p>亮点：组件化开发，提高复用率和开发效率。</p>
       								</div>
   								</li>
   								<li>
 	      							<div className="circle"></div>
 	      							<h4>合同签前审核 2017.05-2017.05 </h4>
 	      							<div className="clearfix">
-	      								<p>该项目用于合同系统的签前审核。使用了vue，h5，less技术，使用redskull构建。最后嵌入app中，在本项目开发中，我熟悉了vue技术，且踩了一些移动端事件的坑，并从中学会了如何进行移动端开发</p>
+	      								<p>该项目用于合同系统的签前审核。</p>
+	      								<p>技术栈：vue，h5，less，webpack</p>
+	      								<p>亮点：适配移动端，使用zepto.js解决了click事件300ms延迟的问题；</p>
+	      								<p>将点击事件全部替换成touch事件，解决了点击事件穿透的问题；</p>
       								</div>
   								</li>
   								<li>
 	      							<div className="circle"></div>
 	      							<h4>集团方向项目 2016.10-至今 </h4>
 	      							<div className="clearfix">
-	      								<p>该项目主要包含集团合同管理、基础数据配置、报销系统、审批系统四个子系统。项目采用了react，react-router,redux,reskull构建，引入了antd，实现了前后端分离方式开发 。使用redskull热更新，可减少提交代码冲突，在本地使用mock数据，减少与后端的联调成本，在开发该项目过程中，形成了组件化开发的逻辑，把小功能块提取出来，提升了项目的开发效率。并熟练掌握了antd。</p>
+	      								<p>该项目主要包含集团合同管理、基础数据配置、报销系统、审批系统四个子系统。</p>
+	      								<p>技术栈：react,react-router,redux,webpack,antd</p>
+	      								<p>亮点：实现了前后端分离方式开发；</p>
+	      								<p>使用webpack热更新，可减少提交代码冲突；</p>
+	      								<p>在本地使用mock数据，减少与后端的联调成本；</p>
+	      								<p>开发业务组件，提升了项目的开发效率。</p>
       								</div>
   								</li>
 							</ul>
