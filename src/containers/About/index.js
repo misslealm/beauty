@@ -60,7 +60,7 @@ export default class Index extends Component {
 							<strong>联系方式</strong>
 			      			<p>Email: lealm@qq.com</p>
 							<p>QQ: 514248288</p>
-							<p>Tel:18729316081</p>
+							<p>Tel:18501374232</p>
 						</article>
 						<article>
 							<strong>应聘岗位</strong>
@@ -91,12 +91,12 @@ export default class Index extends Component {
 	      			<article>
 	      				<h3>技能清单<i className="icon iconfont icon-emoji-3"></i></h3>
 	      				<div className="skill">
-	      					<p>1、平时开发中熟练react全家桶，less，stylus预处理器，高效完成项目。
+	      					<p>1、平时开发中熟练react全家桶，less，stylus预处理器，高效完成项目;
 	      					</p>
-							<p>2、项目开发中熟练使用webpack构建环境，熟练使用git命令。
+							<p>2、项目开发中熟练使用webpack构建环境，熟练使用git命令;
 							</p>
-							<p>3、项目开发中熟练使用es6新语法，熟悉nodejs，vue。</p>
-							<p>4、目前在研究webpack开发插件、loader，学习node的express框架。</p>
+							<p>3、项目开发中熟练使用es6新语法，熟悉nodejs，vue;</p>
+							<p>4、目前在研究webpack开发插件、loader，学习node的express框架;</p>
 	      				</div>
 	      			</article>
 	      			<article>
@@ -110,9 +110,9 @@ export default class Index extends Component {
 	      								<p>这两个项目分别用于管理经纪人业绩，和用户配置权限。</p>
 	      								<p>技术栈：backbone，less，jQuery</p>
 	      								<div className="light">
-	      									<div className="lab">亮点：</div>
+	      									<div className="lab">突破点：</div>
 	      									<div className="lightwrap">
-	      										<p>参与开发公用form表单校验规则，减少代码冗余度</p>
+	      										<p>参与开发公用form表单校验规则，减少代码冗余度;</p>
 	      									</div>
       									</div>
       								</div>
@@ -121,13 +121,13 @@ export default class Index extends Component {
 	      							<div className="circle"></div>
 	      							<h4>金融客，TE系统 2016.01-2016.09 </h4>
 	      							<div className="clearfix">
-	      								<p>金融客项目用于管理房屋交易人员的信息。TE系统主要负责北京房屋交易。
+	      								<p>金融客项目用于管理房屋交易人员的信息，TE系统主要负责北京房屋交易。
 	      								</p>
-	      								<p>技术栈：backbone，jquery，less，webpack</p>
+	      								<p>技术栈：backbone，jQuery，less，webpack</p>
 	      								<div className="light">
-	      									<div className="lab">亮点：</div>
+	      									<div className="lab">突破点：</div>
 	      									<div className="lightwrap">
-	      										<p>组件化开发，提高复用率和开发效率。</p>
+	      										<p>组件化开发，提高复用率和开发效率;</p>
 	      									</div>
       									</div>
       								</div>
@@ -139,7 +139,7 @@ export default class Index extends Component {
 	      								<p>该项目用于合同系统的签前审核。</p>
 	      								<p>技术栈：vue，h5，less，webpack</p>
 	      								<div className="light">
-	      									<div className="lab">亮点：</div>
+	      									<div className="lab">突破点：</div>
 	      									<div className="lightwrap">
 	      										<p>适配移动端，使用zepto.js解决了click事件300ms延迟的问题；</p>
 	      										<p>将点击事件全部替换成touch事件，解决了点击事件穿透的问题；</p>
@@ -155,12 +155,12 @@ export default class Index extends Component {
 	      								<p>该项目主要包含集团合同管理、基础数据配置、报销系统、审批系统四个子系统。</p>
 	      								<p>技术栈：react,react-router,redux,webpack,antd</p>
 	      								<div className="light">
-	      									<div className="lab">亮点：</div>
+	      									<div className="lab">突破点：</div>
 	      									<div className="lightwrap">
-	      										<p>实现了前后端分离方式开发；</p>
-			      								<p>使用webpack热更新，可减少提交代码冲突；</p>
-			      								<p>在本地使用mock数据，减少与后端的联调成本；</p>
-			      								<p>开发业务组件，提升了项目的开发效率。</p>
+	      										<p>实现了前后端分离方式开发;</p>
+			      								<p>使用webpack热更新，可减少提交代码冲突;</p>
+			      								<p>在本地使用mock数据，减少与后端的联调成本;</p>
+			      								<p>开发业务组件，提升了项目的开发效率;</p>
 	      									</div>
       									</div>
       								</div>
@@ -169,13 +169,13 @@ export default class Index extends Component {
 	      							<div className="circle"></div>
 	      							<h4>个人博客 2017.7-至今 <i className="icon iconfont icon-emoji-3"></i></h4>
 	      							<div className="clearfix">
-	      								<p>博客主要针对平时学习总结</p>
+	      								<p>博客主要针对平时学习总结。</p>
 	      								<p>技术栈：react,react-router,redux,webpack</p>
 	      								<div className="light">
-	      									<div className="lab">亮点：</div>
+	      									<div className="lab">突破点：</div>
 	      									<div className="lightwrap">
-	      										<p>使用webpack热更新，可减少提交代码冲突；</p>
-			      								<p>适配移动端</p>
+	      										<p>使用webpack热更新，可减少提交代码冲突;</p>
+			      								<p>适配移动端;</p>
 			      								<p>持续更新中~</p>
 	      									</div>
       									</div>
