@@ -37,7 +37,7 @@ export default class Index extends Component {
 							<p>学校：浙江传媒学院</p>
 							<p>专业：广播电视工程</p>
 							<p>英语水平: CET-6</p>
-							<p>Blog: <a href="vholl.com">vholl.com</a></p>
+							<p>博客: <a href="vholl.com">vholl.com</a></p>
 							<p>GitHub: <a href="https://github.com/misslealm">https://github.com/misslealm</a></p>
 							<p>在线简历: <a href="http://vholl.com/#/about">http://vholl.com/#/about</a></p>
 						</article>
@@ -45,7 +45,7 @@ export default class Index extends Component {
 							<strong>联系方式</strong>
 			      			<p>Email: lealm@qq.com</p>
 							<p>QQ: 514248288</p>
-							<p>PhoneNumber:18729316081</p>
+							<p>Tel:18729316081</p>
 						</article>
 						<article>
 							<strong>应聘岗位</strong>
@@ -91,7 +91,7 @@ export default class Index extends Component {
 	      							<div className="circle"></div>
 	      							<h4>二手房link业绩系统，用户管理系统 2015.07-2015.12 </h4>
 	      							<div className="clearfix">
-	      								<p>这两个项目分别用于管理经纪人业绩，和用户配置权限。使用了Backbone，less，jQuery技术。从这两个系统中，我熟练掌握了jQuery技术，less，提升了我开发项目的效率</p>
+	      								<p>这两个项目分别用于管理经纪人业绩，和用户配置权限。使用了Backbone，less，jQuery技术。</p>
       								</div>
   								</li>
   								<li>
