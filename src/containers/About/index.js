@@ -5,29 +5,44 @@ import {Link} from 'react-router-dom'
 import touxiang from '../../img/touxiang.jpeg'
 
 export default class Index extends Component {
+	constructor(props){
+	    super(props)
+	    this.state={
+	    	showSidebar: false
+	    }
+	  
+	    this.showPerson = this.showPerson.bind(this)
+  	}
+	showPerson = () => {
+		this.setState({
+			showSidebar: !this.state.showSidebar
+		})
+	}
+
+
   	render () {
 	    return (
 	      <div className="aboutwrap">
 	      	<header className="header">
 	            <ul>
-	              <li>
-	                <Link to='/'>首页</Link>
-	              </li>
-	              <li>
-	                <Link to='/play'>休闲</Link>
-	              </li>
-	              <li>
-	                <Link to='/learn'>学习笔记</Link>
-	              </li>
+	            	<li>
+	                	<Link to='/'>首页</Link>
+	              	</li>
+	              	<li>
+	                	<Link to='/play'>休闲</Link>
+	              	</li>
+	              	<li>
+	                	<Link to='/learn'>学习笔记</Link>
+	              	</li>
+	              	<i className="icon iconfont icon-menu" onClick={this.showPerson}></i>
 	            </ul>
           	</header>
 	      	<div className="aboutMe">
-	      		<div className="sidebar">
+	      		<div className={"sidebar " + (this.state.showSidebar ? "show" : "")} >
 	      			<div className="head">
 		      			<a href="profile.html" className="profilepic">
 	              			<img src={touxiang} className="img-circle" />
 	              		</a>
-
 		      		</div>
 		      		<h3 className="namewrap">李敏的简历</h3>
 		      		<div className="tech">
@@ -71,6 +86,7 @@ export default class Index extends Component {
 						</article>
 	      			</div>
 	      		</div>
+	      		
 	      		<div className="content">
 	      			<article>
 	      				<h3>技能清单</h3>
@@ -84,7 +100,7 @@ export default class Index extends Component {
 	      				</div>
 	      			</article>
 	      			<article>
-	      				<h3>项目经验(2015年至今在链家网任web前端)</h3>
+	      				<h3>项目经验(2015年至今:链家网)</h3>
 	      				<div>
 	      					<ul className="exp">
 	      						<li>
