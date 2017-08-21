@@ -1,7 +1,7 @@
 ---
 createTime: 2016/09/10 12:34:25
-title:Array的用法
-description:简单介绍了Array平时常用的一些方法
+title:git的用法
+description:简单介绍了git平时常用的一些方法
 ---
 
 ### 简介
